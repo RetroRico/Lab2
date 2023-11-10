@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="exit">Вихiд</string>
+    <string name="begin">Почати розрахунок</string>
+    <string name="next">Далi</string>
+    <string name="result">Розрахувати</string>
+    <string name="main">Головна</string>
+    <string name="doxid">Введення доходу</string>
+    <string name="valut">Вибiр валюти</string>
+    <string name="resulttext">Розрахунок</string>
+    <string name="ok">Ok</string>
+    <string name="about">Додаток для розрахунку заощаджень в іноземній валюті: долларах чи єврах </string>
+    <string-array name="spinner_items">
+        <item>Dollar</item>
+        <item>Euro</item>
+    </string-array>
+</resources>

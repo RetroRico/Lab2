@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:text="@string/resulttext" />
+
+    <TableLayout
+        android:id="@+id/result_TableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:padding="8dp">
+
+        <TableRow>
+
+            <TextView
+                style="@style/TextHint.Results"
+                android:text="Sy = " />
+
+            <TextView
+                android:id="@+id/Sy_TextView"
+                style="@style/TextHint.Results"
+                tools:text="10" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/TextHint.Results"
+                android:text="Sc = " />
+
+            <TextView
+                android:id="@+id/Sc_TextView"
+                style="@style/TextHint.Results"
+                tools:text="10" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/TextHint.Results"
+                android:text="W = " />
+
+            <TextView
+                android:id="@+id/W_TextView"
+                style="@style/TextHint.Results"
+                tools:text="10" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/TextHint.Results"
+                android:text="Sh = " />
+
+            <TextView
+                android:id="@+id/Sh_TextView"
+                style="@style/TextHint.Results"
+                tools:text="10" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/TextHint.Results"
+                android:text="Sl = " />
+
+            <TextView
+                android:id="@+id/Sl_TextView"
+                style="@style/TextHint.Results"
+                tools:text="10" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/TextHint.Results"
+                android:text="H = " />
+
+            <TextView
+                android:id="@+id/H_TextView"
+                style="@style/TextHint.Results"
+                tools:text="10" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/TextHint.Results"
+                android:text="R = " />
+
+            <TextView
+                android:id="@+id/R_TextView"
+                style="@style/TextHint.Results"
+                tools:text="10" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_width="114dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:text="@string/ok" />
+
+</LinearLayout>

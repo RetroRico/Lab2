@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/doxid" />
+
+    <EditText
+        android:id="@+id/doxid_EditText"
+        style="@style/Input"
+        android:layout_width="137dp"
+        android:layout_height="51dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:hint="Дохiд"
+        android:imeOptions="actionNext" />
+
+    <EditText
+        android:id="@+id/percent_EditText"
+        style="@style/Input"
+        android:layout_width="137dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/doxid_EditText"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:hint="Вiдсоток"
+        android:imeOptions="actionNext" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:text="@string/next" />
+</RelativeLayout>

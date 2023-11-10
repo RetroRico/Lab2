@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainfr">
+
+    <fragment
+        android:id="@+id/mainfr"
+        android:name="com.example.lab2.fragments.MainFr"
+        android:label="Fragment1">
+        <action
+            android:id="@+id/action_main_to_doxid"
+            app:destination="@id/doxidfr" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/doxidfr"
+        android:name="com.example.lab2.fragments.DoxidFr"
+        android:label="Fragment1">
+        <action
+            android:id="@+id/action_doxid_to_valuts"
+            app:destination="@id/valuesfr" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/valuesfr"
+        android:name="com.example.lab2.fragments.ValuesFr"
+        android:label="Fragment2">
+        <action
+            android:id="@+id/action_valuts_to_result"
+            app:destination="@id/resultfr" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultfr"
+        android:name="com.example.lab2.fragments.ResultFr"
+        android:label="Fragment3">
+    <action
+        android:id="@+id/action_back_to_main"
+        app:destination="@id/mainfr" />
+    </fragment>
+
+</navigation>
